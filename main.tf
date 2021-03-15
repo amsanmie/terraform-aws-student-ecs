@@ -13,7 +13,7 @@ module "ecr" {
 
   # insert required variables here
 
-  module "course-ecr" {
+  module "course-ecra" {
     source  = "app.terraform.io/ogacloud/ecr/aws"
     version = "0.0.2"
     name    = "course-management-ecr"
