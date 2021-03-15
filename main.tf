@@ -8,6 +8,8 @@ module "ecr" {
   source  = "app.terraform.io/ogacloud/ecr/aws"
   version = "0.0.2"
   name    = "student-management-ecr"
+}
+
 
   # insert required variables here
 
@@ -18,4 +20,3 @@ module "ecr" {
 
     # insert required variables here
   }
-}
